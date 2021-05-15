@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Best Route for MRT</title>
+</head>
+<body>
+ 
+<p style="text-align:center;">
+<img src = "mylogo.png" style = "display:block; margin-left:auto; margin-right:auto;">
+</p>
+
+<form>
+<div class="autocomplete">
+<pre style="font-size: 20px;">
+Initial station: <input id="fname" type="text" placeholder="Start..." autocomplete="off" ><br>
+</pre>
+<pre style="font-size: 20px;">
+Final station:   <input id="lname" type="text" placeholder="End..." autocomplete="off" ><br><br>
+</pre>
+</div>
+</form>
+
+
+
+
+
+
+
+<p style="text-align:center;">
+<button onclick="f()">Best Route</button> 
+</p>
+<pre style="font-size: 20px;" id="best_route_simplified"></pre>
+<pre style="font-size: 20px;" id="time_taken"></pre>
+<br>
+<br>
+<pre style="font-size: 20px;" id="heading"></pre>
+<pre style="font-size: 20px;" id="best_route_expanded"></pre>
+
+<script src="script.js">
+</script> 
+
+
+
+</body>
+</html>
